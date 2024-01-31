@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: CongestionCalculator
+server:
+  port: 8080
+
+logging:
+  file:
+    name: logs/spring.log
+  level:
+    congestion: debug
